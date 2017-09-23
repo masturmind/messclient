@@ -66,7 +66,7 @@ namespace messclient
             textBox2.Text = "";
             textBox2.Focus();
         }
-        /*a character '$' is used as a terminator for every client-server message,
+        /*a character '$' is used as a terminator for every client-server message,c
         also the message always starts with either "I:" or "M:", which specifies whether
         it's a text message from the client, or a background information for the app*/
         private void SendMessage(string msg)
